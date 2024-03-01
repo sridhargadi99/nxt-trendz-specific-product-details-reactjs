@@ -1,0 +1,227 @@
+/* Write your CSS here */
+.product-view-container {
+  padding: 20px;
+}
+@media screen and (min-width: 768px) {
+  .product-view-container {
+    display: flex;
+    padding: 40px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container1 {
+    margin-right: 20px;
+    width: 500px;
+  }
+}
+.product-view-image-style {
+  width: 100%;
+  border-radius: 12px;
+}
+@media screen and (min-width: 768px) {
+  .product-view-image-style {
+    height: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container2 {
+    width: 600px;
+  }
+}
+.product-view-heading-style {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 700;
+  color: #616e7c;
+}
+@media screen and (min-width: 768px) {
+  .product-view-heading-style {
+    font-size: 45px;
+  }
+}
+.product-view-price-style {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 700;
+  color: #12022f;
+}
+@media screen and (min-width: 768px) {
+  .product-view-price-style {
+    font-size: 36px;
+  }
+}
+.product-view-rating-review-container {
+  display: flex;
+  align-items: center;
+}
+.rating-button-style {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 100px;
+}
+.rating-content-style {
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-right: 10px;
+}
+.star-image-style {
+  height: 30px;
+  width: 30px;
+}
+.review-content-style {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #171f46;
+}
+.description-style {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 400;
+  color: #475569;
+}
+.content-value-container {
+  display: flex;
+}
+.content-style {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+  color: #1e293b;
+  margin-right: 10px;
+}
+
+.value-style {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+  color: #475569;
+}
+.hr-rule {
+  width: 100%;
+  border: 1px solid #cbced2;
+}
+.quantity-container {
+  display: flex;
+  align-items: center;
+}
+.quantity-button-style {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.quantity-style {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  color: #616e7c;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.cart-button-style {
+  background-color: #3b82f6;
+  border-radius: 8px;
+  border: none;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  height: 40px;
+  width: 150px;
+}
+.similar-products-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+@media screen and (min-width: 768px) {
+  .similar-products-container {
+    padding: 40px;
+  }
+}
+.similar-products-heading-style {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 700;
+  color: #616e7c;
+}
+.similar-product-list-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+@media screen and (min-width: 768px) {
+  .similar-product-list-container {
+    flex-direction: row;
+  }
+}
+.product-not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+  height: 70vh;
+}
+.product-not-found-sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .product-not-found-sub-container {
+    width: 500px;
+  }
+}
+.product-not-found-image-style {
+  width: 100%;
+}
+.product-not-found-heading-style {
+  font-family: 'Roboto';
+  font-size: 27px;
+  font-weight: 700;
+  color: #171f46;
+}
+@media screen and (min-width: 768px) {
+  .product-not-found-heading-style {
+    font-size: 35px;
+  }
+}
+.product-not-found-button-style {
+  height: 40px;
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 8px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .product-not-found-button-style {
+    font-size: 24px;
+  }
+}
+.loader-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
